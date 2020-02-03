@@ -9,8 +9,5 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
- 
-groceries.keys
-#  => [:fruit, :vegetable, :dessert]
+  groceries.keys
 end
